@@ -1,20 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Advanced CSS: Portfolio</title>
-        <link rel="stylesheet" href="reset.css" />
-        <link rel="stylesheet" href="style.css" />
-      </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced CSS: Portfolio</title>
+  <link rel="stylesheet" href="./Assets/reset.css" />
+  <link rel="stylesheet" href="./Assets/style.css" />
+</head>
 
 <body>
+  <header>
+    <!-- stolen formating from 01-22 -->
+    <h1>Chelsea Y Ballinger</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <img src="./Assets/Headshot.jpg" alt="Headshot of Chelsea Y Ballinger" />
+    <!-- stolen formatting from 01-10 -->
+    <section id="content" class="content">
+      <article id="about" class="card">
+        <h2>About Me</h2>
+        <p>Generic text placeholder: About Me</p>
+      </article>
+      <article id="resume" class="card">
+        <h2>Resume</h2>
+        <p>Generic text placeholder: Resume</p>
+      </article>
+      <article id="portfolio" class="card">
+        <aside>
+          <h2>Portfolio</h2>
+          <p>Generic text placeholder: Portfolio</p>
+        </aside>
+        <section class="applications">
+          <section class="app" id="firstapp">
+            <h3>First Application</h3>
+            <!-- Find Generic Image <img src="./assets/images/camera.jpg" alt="black camera" /> -->
+            <p>Generic description of application</p>
+          </section>
+          <section class="app">
+            <h3>Second Application</h3>
+            <!-- Find Generic Image <img src="./assets/images/camera.jpg" alt="black camera" /> -->
+            <p>Generic description of application</p>
+          </section>
+          <section class="app">
+            <h3>Third Application</h3>
+            <!-- Find Generic Image <img src="./assets/images/camera.jpg" alt="black camera" /> -->
+            <p>Generic description of application</p>
+          </section>
+        </section>
+      </article>
+      <article id="contact" class="card">
+        <h2>Contact Me</h2>
+        <p>Generic text placeholder: Contact Me</p>
+      </article>
+    </section>
+  </main>
 </body>
 
 <footer>
-
 </footer>
 
 </html>
